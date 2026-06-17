@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>찾아가는 미술심리상담 날다</title>
+  <link rel="icon" href="https://arttherapynalda.com/nal_logo_1.png" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- ===== Header ===== -->
+  <header class="header">
+    <div class="header-inner">
+      <a href="#" class="logo">
+        <img class="logo-rect" src="images/logo-rect.png" alt="미술심리상담 NALDA" />
+      </a>
+
+      <nav class="gnb">
+        <a href="#">회사소개</a>
+        <a href="#">미술심리상담</a>
+        <a href="#">그룹 프로그램</a>
+        <a href="#">강의</a>
+        <a href="#">쇼핑몰</a>
+      </nav>
+
+      <div class="header-right">
+        <div class="search-box">
+          <span class="search-icon">🔍</span>
+          <input type="text" placeholder="검색어를 입력하세요" />
+        </div>
+        <a href="#" class="cart">
+          <span class="cart-icon">🛒</span>
+          <span class="cart-badge">0</span>
+        </a>
+        <a href="#" class="header-link">마이페이지</a>
+        <span class="divider">|</span>
+        <a href="#" class="header-link">로그아웃</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- ===== Hero Slider ===== -->
+  <section class="hero">
+    <button class="hero-arrow prev" aria-label="이전">‹</button>
+    <div class="hero-viewport">
+      <ul class="hero-track" id="heroTrack">
+        <li class="hero-slide"><a href="#"><img src="https://hanyangbucket.s3.ap-northeast-2.amazonaws.com/6df9767a-9085-4140-a0b3-d3f04ca014cb-image_fx_%20(25).jpg" alt="배너1" /></a></li>
+        <li class="hero-slide"><a href="#"><img src="https://hanyangbucket.s3.ap-northeast-2.amazonaws.com/5ef21c67-a788-41cb-b2c7-066fe3fc11b8-image_fx_%20(26).jpg" alt="배너2" /></a></li>
+        <li class="hero-slide"><a href="#"><img src="https://hanyangbucket.s3.ap-northeast-2.amazonaws.com/a234b187-3086-4cf8-9e8f-cfdf1e55c43f-KakaoTalk_Photo_2025-01-20-12-44-01%20001.png" alt="배너3" /></a></li>
+        <li class="hero-slide"><a href="#"><img src="https://hanyangbucket.s3.ap-northeast-2.amazonaws.com/f7c0082f-11c2-48cf-bd09-61a1d2c664a6-KakaoTalk_Photo_2025-01-20-12-44-01%20002.png" alt="배너4" /></a></li>
+      </ul>
+    </div>
+    <button class="hero-arrow next" aria-label="다음">›</button>
+    <div class="hero-counter"><span id="heroCurrent">1</span> / <span id="heroTotal">4</span></div>
+  </section>
+
+  <!-- ===== Notice ===== -->
+  <div class="container">
+    <div class="notice">
+      <div class="notice-left">
+        <span class="notice-badge">공지</span>
+        <span class="notice-title">공지사항2</span>
+      </div>
+      <button class="notice-toggle" aria-label="공지 펼치기">⌄</button>
+    </div>
+  </div>
+
+  <!-- ===== Quick Menu ===== -->
+  <div class="container">
+    <ul class="quick-menu">
+      <li><a href="#"><img class="qm-icon" src="images/nal_1.jpg" alt="미술심리상담" /></a></li>
+      <li><a href="#"><img class="qm-icon" src="images/nal_2.jpg" alt="그룹 프로그램" /></a></li>
+      <li><a href="#"><img class="qm-icon" src="images/nal_3.jpg" alt="강의" /></a></li>
+      <li><a href="#"><img class="qm-icon" src="images/nal_4.jpg" alt="쇼핑몰" /></a></li>
+      <li><a href="#"><img class="qm-icon" src="images/nal_5.jpg" alt="마이페이지" /></a></li>
+      <li><a href="#"><img class="qm-icon" src="images/nal_6.jpg" alt="상담 내역" /></a></li>
+      <li><a href="#"><img class="qm-icon" src="images/nal_7.jpg" alt="수강 내역" /></a></li>
+      <li><a href="#"><img class="qm-icon" src="images/nal_8.jpg" alt="주문 내역" /></a></li>
+    </ul>
+  </div>
+
+  <!-- ===== 프로그램 목록 ===== -->
+  <div class="container">
+    <section class="list-section">
+      <div class="section-head">
+        <h3 class="section-title"><img class="title-icon" src="images/nal_2_icon.png" alt="" />프로그램 목록</h3>
+        <a href="#" class="view-all">전체보기 ›</a>
+      </div>
+      <div class="carousel">
+        <button class="car-arrow prev" aria-label="이전">‹</button>
+        <ul class="card-row" data-carousel>
+          <li class="card">
+            <div class="card-thumb"><img src="https://hanyangbucket.s3.ap-northeast-2.amazonaws.com/51bde0ac-2131-4952-a0f9-0fcc5ee64987-%EC%9E%84%EC%83%81%EC%9E%90%EA%B8%B0%EA%B2%BD%ED%97%98.png" alt="" /></div>
+            <p class="card-title">&lt;시범사업&gt;온라인 미술치료 임상자기경험 과정(집단)</p>
+            <p class="card-price">1,000원~</p>
+          </li>
+          <li class="card">
+            <div class="card-thumb"><img src="https://hanyangbucket.s3.ap-northeast-2.amazonaws.com/7c0d871b-24ac-49ec-8779-b45d290de813-%E1%84%8C%E1%85%B5%E1%86%A8%E1%84%8C%E1%85%A1%E1%86%BC%E1%84%8B%E1%85%B5%E1%86%AB.png" alt="" /></div>
+            <p class="card-title">직장인의 자기탐색을 위한 집단미술치료</p>
+            <p class="card-price">80,000원~</p>
+          </li>
+          <li class="card">
+            <div class="card-thumb"><img src="https://hanyangbucket.s3.ap-northeast-2.amazonaws.com/d4d09e12-b7d4-402f-bb0c-51f20129bc34-%E1%84%86%E1%85%A1%E1%86%AB%E1%84%83%E1%85%A1%E1%84%85%E1%85%A1.png" alt="" /></div>
+            <p class="card-title">성인을 위한 만다라 집단미술치료</p>
+            <p class="card-price">20,000원~</p>
+          </li>
+          <li class="card">
+            <div class="card-thumb"><img src="https://hanyangbucket.s3.ap-northeast-2.amazonaws.com/7f6c566f-1f5c-4883-8274-79419479d50d-%E1%84%8B%E1%85%A5%E1%86%B7%E1%84%86%E1%85%A1.png" alt="" /></div>
+            <p class="card-title">예비 엄마들을 위한 집단 미술치료</p>
+            <p class="card-price">20,000원~</p>
+          </li>
+        </ul>
+        <button class="car-arrow next" aria-label="다음">›</button>
+      </div>
+    </section>
+  </div>
+
+  <!-- ===== Marquee ===== -->
+  <section class="marquee">
+    <div class="marquee-track">
+      <!-- 기본 배너 두 장 (seamless -50% loop) -->
+      <img class="mq-web" src="images/marquee-web2.png" alt="EVERYTHING ABOUT ART THERAPY NALDA" />
+      <img class="mq-web" src="images/marquee-web2.png" alt="" aria-hidden="true" />
+      <!-- mobile -->
+      <img class="mq-mobile" src="images/marquee-mobile.png" alt="EVERYTHING ABOUT ART THERAPY NALDA" />
+      <img class="mq-mobile" src="images/marquee-mobile.png" alt="" aria-hidden="true" />
+    </div>
+  </section>
+
+  <!-- ===== 강의 목록 ===== -->
+  <div class="container">
+    <section class="list-section">
+      <div class="section-head">
+        <h3 class="section-title"><img class="title-icon" src="images/nal_3_icon.png" alt="" />강의 목록</h3>
+        <a href="#" class="view-all">전체보기 ›</a>
+      </div>
+      <div class="carousel">
+        <button class="car-arrow prev" aria-label="이전">‹</button>
+        <ul class="card-row" data-carousel>
+          <li class="card">
+            <div class="card-thumb"><img src="https://hanyangbucket.s3.ap-northeast-2.amazonaws.com/ab8da8ff-7991-4ad2-a0f9-e361ae7f84a6-%E1%84%80%E1%85%B5%E1%86%B7%E1%84%92%E1%85%A7%E1%86%AB%E1%84%86%E1%85%B5%20%E1%84%80%E1%85%AD%E1%84%89%E1%85%AE%E1%84%82%E1%85%B5%E1%86%B7.png" alt="" /></div>
+            <p class="card-title">강의로 듣는 장기 역동정신치료의 이해</p>
+            <p class="card-price">100,000원~</p>
+          </li>
+          <li class="card">
+            <div class="card-thumb"><img src="https://hanyangbucket.s3.ap-northeast-2.amazonaws.com/f0dbdd48-a5ee-4bb8-9041-0470433d7137-2025%E1%84%8B%E1%85%A7%E1%84%85%E1%85%B3%E1%86%B7%E1%84%87%E1%85%A1%E1%86%BC%E1%84%92%E1%85%A1%E1%86%A8%E1%84%8B%E1%85%AF%E1%84%8F%E1%85%B3%E1%84%89%E1%85%AD%E1%86%B8%E1%84%80%E1%85%A1%E1%86%BC%E1%84%8B%E1%85%B4%E1%84%8A%E1%85%A5%E1%86%B7%E1%84%82%E1%85%A6%E1%84%8B%E1%85%B5%E1%86%AF.png" alt="" /></div>
+            <p class="card-title">미술치료사의 역량 강화를 위한 미술작품 제작 워크숍</p>
+            <p class="card-price">100,000원~</p>
+          </li>
+        </ul>
+        <button class="car-arrow next" aria-label="다음">›</button>
+      </div>
+    </section>
+  </div>
+
+  <!-- ===== 상품 목록 ===== -->
+  <div class="container">
+    <section class="list-section">
+      <div class="section-head">
+        <h3 class="section-title"><img class="title-icon" src="images/nal_4_icon.png" alt="" />상품 목록</h3>
+        <a href="#" class="view-all">전체보기 ›</a>
+      </div>
+      <div class="carousel">
+        <button class="car-arrow prev" aria-label="이전">‹</button>
+        <ul class="card-row" data-carousel>
+          <li class="card-empty">등록된 상품이 없습니다.</li>
+        </ul>
+        <button class="car-arrow next" aria-label="다음">›</button>
+      </div>
+    </section>
+  </div>
+
+  <!-- ===== Footer ===== -->
+  <footer class="footer">
+    <div class="footer-top">
+      <div class="footer-policies">
+        <a href="#">개인정보처리방침</a>
+        <a href="#">서비스 이용 약관</a>
+        <a href="#">환불규정</a>
+      </div>
+      <div class="footer-cta">
+        <button class="inquiry-btn">문의하기</button>
+        <p class="footer-hours">평일 10:00 - 18:00 점심시간 12 -13시 &nbsp;|&nbsp; 주말 및 공휴일 제외</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <img src="images/hanyang.png" alt="한양대학교" class="footer-logo" />
+      <p>
+        (주)한양미술심리교육 &nbsp;|&nbsp; 대표자 : 김은진 &nbsp;|&nbsp; 사업자등록번호 : 445-81-03456 &nbsp;|&nbsp;
+        개인정보관리책임자 : 김은진 &nbsp;|&nbsp; 연락처: 010-3218-4913 &nbsp;|&nbsp;
+        상담시간: MON-FRI 11am-12pm, 1pm-6pm &nbsp;|&nbsp; 이메일: eunjin49.kim@gmail.com
+      </p>
+      <p>
+        주소: 경기 안산시 상록구 한양대학로 55 에리카킨캠센터 407호(사동) &nbsp;|&nbsp;
+        통신판매업 번호 : 제 2025-경기안산-0553
+      </p>
+    </div>
+  </footer>
+
+  <!-- ===== Floating Kakao ===== -->
+  <a href="#" class="kakao-float" aria-label="카카오톡 상담">TALK</a>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
