@@ -428,11 +428,11 @@ button { cursor: pointer; font-family: inherit; border: none; background: none; 
   .card-price { font-size: 14px; }
   .car-arrow { display: none; }
 
-  /* Marquee: swap to mobile banner */
-  .marquee { margin: 38px 0; }
+  /* Marquee: full-width mobile banner */
+  .marquee { margin: 32px 0; }
+  .marquee-track { animation-duration: 14s; }
   .marquee-track .mq-web { display: none; }
-  .marquee-track .mq-mobile { display: block; }
-  .marquee-track img { height: 90px; }
+  .marquee-track .mq-mobile { display: block; width: 100vw; height: auto; }
 
   /* Footer */
   .footer { padding: 28px 16px 36px; }
